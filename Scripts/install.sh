@@ -106,5 +106,5 @@ installForDesktop(){
 }
 
 #installiOS
-#installForDesktop
+installForDesktop
 installWebGL

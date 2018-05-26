@@ -117,7 +117,7 @@ buildiOS(){
 
 #buildiOS
 #buildAndroid
-#buildForDesktop
+buildForDesktop
 buildWegGL
 
 echo 'Logs from build'
