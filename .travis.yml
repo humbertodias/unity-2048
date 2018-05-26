@@ -28,7 +28,7 @@ deploy:
   keep-history: false
   skip_cleanup: true
   on:
-    repo: humbertodias/unity-2048
+    tags: true
 
 - provider: releases
   file_glob: true
@@ -39,4 +39,4 @@ deploy:
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
-    repo: humbertodias/unity-2048
+    tags: true

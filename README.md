@@ -7,4 +7,4 @@ https://travis-ci.org/humbertodias/unity-2048)
 
 [Play](http://humbertodias.github.io/unity-2048)
 
-[Releases](http://humbertodias.github.io/unity-2048/releases)
+[Releases](https://github.com/humbertodias/unity-2048/releases)
