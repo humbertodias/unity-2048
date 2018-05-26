@@ -23,7 +23,7 @@ env:
 
 deploy:
 - provider: pages
-  local-dir: Build/webgl/unity-aa/
+  local-dir: Build/webgl/unity-2048/
   github-token: $GITHUB_TOKEN
   keep-history: false
   skip_cleanup: true
