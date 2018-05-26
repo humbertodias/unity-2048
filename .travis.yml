@@ -28,6 +28,7 @@ deploy:
   keep-history: false
   skip_cleanup: true
   on:
+    all_branches: true
     tags: true
 
 - provider: releases
@@ -39,4 +40,5 @@ deploy:
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
+    all_branches: true
     tags: true
