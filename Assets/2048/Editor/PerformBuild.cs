@@ -79,7 +79,7 @@ class PerformBuild
 		BuildTargetGroup buildTargetGroup = BuildPipeline.GetBuildTargetGroup (target);
 
     // IL2CPP
-    PlayerSettings.SetScriptingBackend(buildTargetGroup, ScriptingImplementation.IL2CPP);
+    //PlayerSettings.SetScriptingBackend(buildTargetGroup, ScriptingImplementation.IL2CPP);
 
 		EditorUserBuildSettings.SwitchActiveBuildTarget(buildTargetGroup, target);
 
