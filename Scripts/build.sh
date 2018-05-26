@@ -1,6 +1,6 @@
 #! /bin/sh
 
-project="unity-aa"
+project="unity-2048"
 
 echo "whoami: $(whoami)"
 ls -lha $(pwd)
@@ -117,7 +117,7 @@ buildiOS(){
 
 #buildiOS
 #buildAndroid
-buildForDesktop
+#buildForDesktop
 buildWegGL
 
 echo 'Logs from build'
